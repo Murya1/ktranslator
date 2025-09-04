@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kare kare to English Translator Using Seq2Seq</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Login Section -->
+  <div class="login-container" id="loginContainer">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <p id="loginMessage"></p>
+  </div>
+
+  <!-- Translator Section -->
+  <div class="container" id="translatorContainer" style="display:none;">
+    <h1>Kare kare to English Translator Using Seq2Seq</h1>
+
+    <div class="translator">
+      <input type="text" id="englishWord" placeholder="Enter an English Word">
+      <button id="translateBtn">Translate</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Design by <b>Ibrahim Yusuf Murya</b> Under the Supervision of: <b>Prof. MMM</b></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
